@@ -1,5 +1,5 @@
 {
-	"name": "SqlTargetNetPrice",
+	"name": "AzureSqlClientNetPrice",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlTarget",

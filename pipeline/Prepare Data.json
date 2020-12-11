@@ -102,7 +102,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "AzureSqlClientSales",
 						"type": "DatasetReference"
 					}
 				]
@@ -195,7 +195,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "SqlTargetNetPrice",
+						"referenceName": "AzureSqlClientNetPrice",
 						"type": "DatasetReference"
 					}
 				]
@@ -272,7 +272,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable2",
+						"referenceName": "AzureSqlClientArrival",
 						"type": "DatasetReference"
 					}
 				]
