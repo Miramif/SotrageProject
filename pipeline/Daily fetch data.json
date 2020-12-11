@@ -1,0 +1,23 @@
+{
+	"name": "Daily fetch data",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Get Data",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "Prepare Data",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2020-12-11T21:23:53Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

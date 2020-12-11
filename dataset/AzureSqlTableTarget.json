@@ -1,0 +1,32 @@
+{
+	"name": "AzureSqlTableTarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlTarget",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "iD",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			},
+			{
+				"name": "Citizens",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "CitiesXL"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

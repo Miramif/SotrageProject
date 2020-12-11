@@ -1,0 +1,27 @@
+{
+	"name": "ClientShopsTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerClient",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "shops"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

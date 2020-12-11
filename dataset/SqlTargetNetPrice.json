@@ -1,0 +1,24 @@
+{
+	"name": "SqlTargetNetPrice",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlTarget",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Price_net",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Price"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
